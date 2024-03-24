@@ -78,7 +78,6 @@ int lcd_init(void);
 extern struct __lcd_panel default_eink;
 extern struct __lcd_panel default_panel;
 extern struct __lcd_panel lt070me05000_panel;
-extern struct __lcd_panel wtq05027d01_panel;
 extern struct __lcd_panel t27p06_panel;
 extern struct __lcd_panel dx0960be40a1_panel;
 extern struct __lcd_panel tft720x1280_panel;
@@ -166,6 +165,9 @@ extern struct __lcd_panel K101_IM2BYL02_L_800X1280_mipi_panel;
 #endif
 #ifdef CONFIG_LCD_SUPPORT_K080_IM2HYL802R_800X1280
 extern struct __lcd_panel K080_IM2HYL802R_800X1280_mipi_panel;
+#endif
+#ifdef CONFIG_LCD_SUPPORT_EP28060_480X640
+extern struct __lcd_panel ep28060_panel;
 #endif
 
 extern struct __lcd_panel super_lcd_panel;
